@@ -68,13 +68,13 @@ trump_tweets = ['thank', 'you', 'to', 'president', 'moon', 'of', 'south', 'korea
 #해시태그와 멘션을 찾기 위서는 문자열이 # 또는 @로 시작하는지 확인해야 합니다.
 #startswith() 메소드를 사용하여 앞서 인덱싱을 이용해 작성한 print_korea() 함수를 다시 작성하세요.
 
-def print_korea(tweet):
+def print_korea2(tweet):
     for text in tweet:
         if text.startswith('k'):
             print(text)
     
 #결과를 확인해보세요.  
-print_korea(trump_tweets)
+print_korea2(trump_tweets)
 #결과값: korea
 
 
