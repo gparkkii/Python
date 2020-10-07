@@ -10,13 +10,17 @@ for i in range(c):
     my_list = list(map(int,input().split()))
     cnt = 0
     grades = 0
-    students = my_list.pop(0) #5
-    average = sum(my_list) / students #70
-    for j in my_list: #5
+    students = my_list.pop(0)
+    average = sum(my_list) / students
+    for j in my_list:
         if j > average:
             cnt += 1
     grades = (cnt/students)*100
     print(str("%0.3f" % grades)+'%')
+
+
+# "%0.3f" >> 소숫점 3자리수까지 무조건 출력하게 하는 수
+
 
 
     
