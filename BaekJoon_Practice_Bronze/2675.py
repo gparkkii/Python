@@ -19,4 +19,15 @@ for i in range(t):
     
     print(multiple_words(a[0],a[1]))
 
-#for문으로 다시 풀어보기
+
+# for i in range(int(s[0])):
+#     my_list = list(s[1])
+# for j in range(len(my_list)):
+#     ans = my_list[j] * int(s[0])
+#     print(ans , end="")
+    
+# for i in range(int(r[0])):
+#         my_list2 = list(r[1])
+#         for j in range(len(my_list)):
+#             ans2 = my_list2[j] * int(r[0])
+#             print(ans2, end="")
